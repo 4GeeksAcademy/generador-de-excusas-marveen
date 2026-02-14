@@ -1,5 +1,9 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    margin: +++ 50%;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px 30px 30px 30px;
+    background-color: antiquewhite;
 }
