@@ -28,4 +28,5 @@ let When= getRandomItem(when);
 window.onload = function() {
   //write your code here
   document.getElementById('excuse').innerHTML = (Who + " " + Action + " " + What + " " + When);
+  document.getElementById('excuse2').innerHTML = (Who + " " + Action + " " + What + " " + When + "!");
 };
