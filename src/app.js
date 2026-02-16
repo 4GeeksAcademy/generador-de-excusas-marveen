@@ -11,9 +11,6 @@ let what = ['my homework', 'my phone', 'the car'];
 let when = ['before the class', 'when I was sleeping', 'while I was exercising', 'during my lunch', 'while I was praying'];
 
 
-function log_random_item (a, b){
-  return Math.floor(Math.random()* (a - b) + b);
-};
 
 function getRandomItem(array) {
     if (!Array.isArray(array) || array.length === 0) {
@@ -30,5 +27,5 @@ let When= getRandomItem(when);
 
 window.onload = function() {
   //write your code here
-  document.querySelector ('#excuse').innerHTML = (Who + " " + Action + " " + What + " " + When);
+  document.getElementById('excuse').innerHTML = (Who + " " + Action + " " + What + " " + When);
 };
