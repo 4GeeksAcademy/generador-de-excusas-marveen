@@ -25,8 +25,12 @@ let What= getRandomItem(what);
 let When= getRandomItem(when);
 
 
-window.onload = function() {
+
   //write your code here
   document.getElementById('excuse').innerHTML = (Who + " " + Action + " " + What + " " + When);
   document.getElementById('excuse2').innerHTML = ("<strong>"+ Who + " " + Action + " " + What + " " + When + "!" + "</strong>");
-};
+
+
+  window.addEventListener("click", function () {
+  window.location.href = window.location.href;
+});
